@@ -5,12 +5,16 @@ var test = (function() {
   var add = function(a) {
     return x + a;
   };
+
   return {
+    // Uses closure; has access to add and x
     publicTest: function(b) {
       console.log(add(b));
     }
   };
 })();
+// ^ () makes the function to be called before code execution
+
 
 /**
  * On Console:
