@@ -14,7 +14,7 @@ var p1 = {
   name: "ellis",
   fcn: function() {
     console.log(this); // Points to p object
-    console.log(this.name);
+    console.log(this.name); // has access to name b/c of scope chain
 
     function innerFcn() {
       console.log(this); // Points to global object!

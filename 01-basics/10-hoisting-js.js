@@ -1,4 +1,4 @@
-// Hoisting
+// Hoisting: variables are set to undefined in creation phase
 
 someFcn("arg");
 // functions get stored in VO(variable object) before the code is executed

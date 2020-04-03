@@ -20,6 +20,7 @@ function foo(arg1, arg2) {}
 
 // Useful as arguments to other functions
 // OR as IIFE(Immediately Invoked Function Expressions)
+// CALLED METHOD; functions attached to objects
 var foo = function(arg1, arg2) {
   return 33;
 };

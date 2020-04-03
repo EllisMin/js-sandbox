@@ -8,6 +8,7 @@ function clicked() {
 }
 
 // Anonymous function; function that's used only once here; has no reusability
+// Closures are not formed with anonymous functions
 document.getElementById("btn-2").addEventListener("click", function() {
   console.log("btn2 clicked");
 });
